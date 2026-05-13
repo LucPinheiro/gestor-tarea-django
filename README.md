@@ -1,6 +1,6 @@
 ## Gestor de Tarea
 
-# Estructura del proyecto
+## Estructura del proyecto
 
 ```text
 gestor_tareas/
