@@ -106,3 +106,215 @@ gestor_tareas/
 │
 └── venv/
 ```
+## 🔧 Instalación y configuración
+
+### 📋 Requisitos previos
+
+- Python 3.10+
+- pip
+- Virtualenv (opcional)
+
+---
+
+## 🚀 Instalación del proyecto
+
+### 1. Clonar o descargar el proyecto
+
+```bash
+git clone https://github.com/usuario/gestor_tareas.git
+cd gestor_tareas
+```
+
+O descargar el archivo `.zip` y descomprimirlo.
+
+---
+
+### 2. Crear entorno virtual
+
+#### Linux / Mac
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+---
+
+### 3. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Aplicar migraciones
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+---
+
+### 5. Crear superusuario (opcional)
+
+```bash
+python manage.py createsuperuser
+```
+
+---
+
+### 6. Ejecutar servidor de desarrollo
+
+```bash
+python manage.py runserver
+```
+
+---
+
+## 🌐 Acceso a la aplicación
+
+Aplicación:
+
+```bash
+http://127.0.0.1:8000
+```
+
+Panel administrador:
+
+```bash
+http://127.0.0.1:8000/admin
+```
+
+---
+
+## 📖 Funcionalidades principales
+
+## ✅ Gestión de tareas
+
+- Crear tareas mediante formularios.
+- Editar tareas existentes.
+- Eliminar tareas.
+- Visualizar detalles de cada tarea.
+- Cambio rápido de estados.
+- Prioridades visuales mediante estrellas.
+
+---
+
+## 📋 Vistas disponibles
+
+### 🗂 Vista Kanban
+
+- Organización visual por estados:
+  - Borrador
+  - Pendiente
+  - En proceso
+  - Completada
+
+### 📑 Vista Lista
+
+- Tabla organizada de tareas.
+- Selección múltiple.
+- Acciones masivas.
+- Navegación rápida.
+
+---
+
+## 📂 Importación y exportación CSV
+
+### 📥 Importar CSV
+
+Permite cargar tareas automáticamente desde un archivo CSV.
+
+### 📤 Exportar CSV
+
+Genera un archivo CSV con todas las tareas registradas.
+
+---
+
+## 🔐 Sistema de autenticación
+
+- Login de usuarios.
+- Logout.
+- Protección de vistas privadas.
+- Gestión de sesiones.
+
+---
+
+## 🎨 Interfaz y diseño
+
+- Diseño responsive.
+- Inspiración visual en Odoo y Trello.
+- Bootstrap 5 + CSS personalizado.
+- Experiencia moderna para escritorio y móvil.
+
+---
+
+# 🗄️ Modelo de datos
+
+## Tarea
+
+```python
+titulo
+descripcion
+estado
+prioridad
+fecha_creada
+fecha_limite
+```
+
+---
+
+# ⚙️ Tecnologías utilizadas
+
+- Python 3
+- Django 5
+- SQLite
+- Bootstrap 5
+- HTML5
+- CSS3
+- JavaScript
+- Django ORM
+- ModelForms
+- CSV module
+
+---
+
+# 🔒 Características técnicas
+
+- Arquitectura MVT de Django.
+- CRUD completo.
+- Templates reutilizables.
+- Sistema de rutas.
+- Formularios dinámicos.
+- Validación de datos.
+- Sistema de mensajes.
+- Responsive Design.
+
+---
+
+# 🚀 Posibles mejoras futuras
+
+- Drag & Drop en vista Kanban.
+- Notificaciones.
+- Adjuntos de archivos.
+- Usuarios y permisos avanzados.
+- Calendario de tareas.
+- Dashboard estadístico.
+
+---
+
+# 👨‍💻 Desarrollado con
+
+- Django
+- Bootstrap
+- Python
+- Mucho café ☕
