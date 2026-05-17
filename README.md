@@ -59,11 +59,12 @@ El objetivo de esta aplicación es facilitar la organización y gestión de tare
 
 ## Estructura del proyecto
 
-```text
 gestor_tareas/
 │
 ├── manage.py
 ├── db.sqlite3
+├── requirements.txt
+├── README.md
 │
 ├── mi_proyecto/
 │   ├── __init__.py
@@ -80,15 +81,26 @@ gestor_tareas/
 │   ├── models.py
 │   ├── tests.py
 │   ├── views.py
+│   ├── urls.py
 │   │
 │   ├── migrations/
-│   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   └── ...
+│   │
+│   ├── static/
+│   │   └── tareas/
+│   │       └── style.css
 │   │
 │   └── templates/
 │       └── tareas/
+│           ├── base.html
 │           ├── lista.html
+│           ├── detalle.html
 │           ├── formulario.html
 │           ├── confirmar_eliminar.html
-│           └── importar_csv.html
+│           ├── importar_csv.html
+│           └── login.html
+│
+├── media/
 │
 └── venv/
