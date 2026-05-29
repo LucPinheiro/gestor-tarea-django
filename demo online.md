@@ -1,10 +1,6 @@
 
 ## 🚀 Demo
 
-Puedes probar la aplicación en:
+Puedes probar la aplicación haga un clic en el siguiente enlace:
 
 🔗 **https://django-gestortarea.onrender.com/**
-
-o haciendo clic en el siguiente enlace:
-
-[🌐 Abrir Gestor de Tareas](https://django-gestortarea.onrender.com/)
