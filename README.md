@@ -60,6 +60,12 @@ El objetivo de esta aplicación es facilitar la organización y gestión de tare
 ## Estructura del proyecto
 
 ```bash
+
+docs/
+│
+├── presentacion-gestor-tarea-django.pdf
+├── tareas.csv
+│
 gestor_tareas/
 │
 ├── manage.py
