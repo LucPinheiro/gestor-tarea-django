@@ -1,1 +1,46 @@
-
+titulo,descripcion,estado,fecha_creada
+Preparar Informe Mensual,Crear informe mensual de ventas y métricas,Pendiente,2026-10-01
+Actualizar Documentación,Revisar y actualizar documentación técnica,En_Progreso,2026-10-03
+Corregir Bug Login,Resolver error en autenticación de usuarios,Pendiente,2026-10-05
+Deploy Producción,Desplegar nueva versión en producción,Completada,2026-10-07
+Backup Servidor,Realizar copia de seguridad completa,Completada,2026-10-10
+Reunión Cliente,Presentar avances del proyecto,Pendiente,2026-10-12
+Optimizar Consultas SQL,Mejorar rendimiento de base de datos,En_Progreso,2026-10-15
+Dise?ar Dashboard,Crear interfaz de métricas,Pendiente,2026-10-18
+Configurar Docker,Preparar entorno de contenedores,Completada,2026-10-20
+Actualizar Dependencias,Actualizar paquetes del proyecto,Pendiente,2026-10-22
+Revisar Seguridad,Auditoría básica de seguridad,En_Progreso,2026-10-25
+Crear Tests API,A?adir pruebas automatizadas,Pendiente,2026-10-28
+Implementar JWT,Agregar autenticación JWT,Completada,2026-11-01
+Mejorar UI,Actualizar estilos y componentes,Pendiente,2026-11-03
+Analizar Logs,Revisar logs de errores del servidor,Completada,2026-11-05
+Integrar Pagos,Conectar pasarela de pago,En_Progreso,2026-11-08
+Documentar Endpoints,Crear documentación Swagger,Pendiente,2026-11-10
+Configurar CI/CD,Automatizar despliegues,Completada,2026-11-13
+Revisar Accesibilidad,Mejorar accesibilidad web,Pendiente,2026-11-15
+Actualizar Landing,Modificar contenido principal,En_Progreso,2026-11-18
+Crear Módulo Usuarios,Desarrollar CRUD de usuarios,Completada,2026-11-20
+Revisión Sprint,Analizar tareas completadas,Pendiente,2026-11-22
+Corregir Estilos Móviles,Ajustar responsive design,Pendiente,2026-11-25
+Subir Imágenes,Optimizar y subir recursos,Completada,2026-11-28
+Preparar Demo,Configurar entorno para demostración,En_Progreso,2026-12-01
+Limpiar Código,Refactorizar componentes antiguos,Pendiente,2026-12-03
+Crear Notificaciones,Implementar sistema de alertas,Completada,2026-12-05
+Monitorizar Servidor,Verificar uso de recursos,Pendiente,2026-12-08
+Actualizar README,A?adir instrucciones del proyecto,Completada,2026-12-10
+Implementar Filtros,Agregar filtros avanzados,En_Progreso,2026-12-13
+Crear Exportación PDF,Permitir descargar reportes,Pendiente,2026-12-15
+Integrar Emails,Configurar envío automático,Completada,2026-12-18
+Revisar Permisos,Validar roles y accesos,Pendiente,2026-12-20
+Crear Página Ayuda,A?adir sección FAQ,En_Progreso,2026-12-22
+Optimizar Imágenes,Reducir tama?o de recursos,Completada,2026-12-25
+Agregar Búsqueda,Implementar buscador interno,Pendiente,2027-01-03
+Corregir API,Resolver errores de endpoints,En_Progreso,2027-01-05
+Actualizar Servidor,Instalar actualizaciones,Completada,2027-01-08
+Preparar Métricas,Configurar analytics,Pendiente,2027-01-10
+Crear Historial,Guardar cambios de usuarios,Completada,2027-01-12
+Validar Formularios,A?adir validaciones frontend,Pendiente,2027-01-15
+Integrar Chat,Agregar soporte en línea,En_Progreso,2027-01-18
+Corregir Permisos Admin,Ajustar panel administrador,Completada,2027-01-20
+Preparar Release,Crear versión estable,Pendiente,2027-01-22
+Actualizar Iconos,Mejorar recursos visuales,Completada,2027-01-25
